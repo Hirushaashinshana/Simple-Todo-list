@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="App.js" defer></script>
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="main.vue"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <title>Vue Cdn</title>
+</head>
+
+<body>
+  <div id="app">
+    <input type="text" class="PhoneInput" placeholder="Input A Phone Brand !!!" v-model="AddPhone">
+    <button type="submit" class="btn" @click.enter="PhoneAdder">Add Phone</button>
+    <li v-for="(phones,index) in Phones" v-bind:key="index">{{phones.name}} 
+      <i class="bi bi-eraser-fill" @click="Delete(index)"></i>
+    </li>
+  </div>
+</body>
+<script>
+
+
+
+</script>
+
+</html>

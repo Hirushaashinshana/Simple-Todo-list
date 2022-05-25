@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.PhoneInput{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+    padding-left: 15px;
+}
+.btn{
+    width: 85px;
+    height: 30px;
+    background-color: #3B3B98;
+    border: none;
+    border-radius: 3px;
+    margin-left: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+.bi{
+    cursor: pointer;
+    color: red;
+}
